@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+  background-color: #c6c9cf
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.backbutton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 2px solid grey;
+  background: #2A3244;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.maindiv2 {
+  width: 350px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #0c60a6;
+  color: white;
+  display: block;
+}
+
+.inputclass {
+  color: black;
+  border-radius: 40px;
+  border: solid grey 2px;
+  height: 60px;
+  width: 250px;
+  float: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  box-shadow: none
+}
+.inputclass:focus{
+  color: black;
+}
+.inputclass2 {
+  color: black;
+  border-radius: 40px;
+  border: solid grey 2px;
+  height: 60px;
+  width: 350px;
+  float: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  box-shadow: none
+}
+.inputclass2:focus{
+  color: black;
+}
+
+.loginbutton {
+  margin: 20px;
+  border: 2px solid grey;
+  background: #2A3244;
+  color:  white;
+  border-radius: 10px;
+  height: 50px;
+  width: 90px;
+  padding: auto;
+  box-shadow: none;
+  text-align: center;
+}
+
+.createbutton{
+  position: relative;
+  top: 550px;
+  border: 2px solid grey;
+  background: #2A3244;
+  color:  white;
+  border-radius: 10px;
+  height: 50px;
+  width: 190px;
+  padding: auto;
+  box-shadow: none;
+}
+
+.createform {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+.secondarybutton {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.backbutton {
+  margin: 10px;
+  height: 50px;
+  width: 70px;
+  font-size: 13px;
+  text-align: center;
+  background-color: #02283d;
+  color: white;
+  padding: 8px;
+  position: fixed;
+  top:2%;
+  left: 0;
+  
+}
+.tablediv {
+  align-items: center;
+  margin: auto 10px auto 10px;
+}
+.formdiv {
+  margin: auto 10px auto 10px;
+  text-align: left;
+}
+.submitbutton {
+  float: right;
+  margin: 10px;
+}
+.viewdiv {
+  margin-top: 20px;
+  float: left;
+  text-align: justify;
+}
